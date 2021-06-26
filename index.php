@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<h1 class="display-3 text-center my-4">Knižnica</h1>
 <?php
 $servername = "xkuran-mysql.mysql.database.azure.com:3306";
 $username = "xkuran@xkuran-mysql";
@@ -89,7 +90,6 @@ function test_input($data)
 }
 
 ?>
-<h1 class="display-3 text-center my-4">Knižnica</h1>
 <div class="container">
     <form class="my-5" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         <div class="form-row my-4">
