@@ -13,9 +13,9 @@
 
 <body>
 <?php
-$servername = "localhost:3306";
-$username = "root";
-$password = "Kurkyn67";
+$servername = "xkuran-mysql.mysql.database.azure.com:3306";
+$username = "xkuran@xkuran-mysql";
+$password = "PHP-testovaci";
 $dbname = "library";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
